@@ -1,0 +1,238 @@
+*{
+    padding:0;
+    margin:0;
+}
+*::before{
+    padding:0; 
+    margin:0;
+}
+main{ 
+    width:100%;
+    min-height:200px;
+}
+header{
+    width:100%;
+    height:800px;
+    color:white;
+    background-image: linear-gradient(#0008,#0008), url(../images/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center -130%;
+    background-repeat: no-repeat;
+}
+.container1{
+    width:70%;
+    height:600px;
+    margin:auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+nav{
+    width:100%;
+    height:50px;
+}
+.logo{
+    width:55%;
+    color: white;
+    font-size: 22px !important;
+    font-weight: bold;
+    float:left;
+}
+.logoimg{
+    vertical-align: text-top;
+}
+.nav{
+    width:45%;
+    float: right;
+    font-size: 18px !important;
+    font-weight: bold;
+}
+.nav ul{
+    list-style: none; 
+}
+.nav ul li{ 
+    color: white;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    cursor:pointer;
+    transition: all 1s;
+    padding: 0 16px 0 0 ;
+}
+.nav ul li:hover{
+    background: #ccc8;
+    border-radius: 8px;
+}
+.nav ul li.active{
+    color: rgb(207, 95, 30);   
+}
+.clear{
+    clear:both;
+    padding-top: 70px;
+    width:50%;
+
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;    
+    line-height: 50px;
+}
+h1{
+    font-family: Arial black;
+    font-size: 70px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color:white;
+    line-height: 80px;
+}
+p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;    
+    line-height: 25px; 
+    padding-top: 15px; 
+}
+.b1{
+    padding-top:40px;
+}
+.button1{
+    background:orange;
+    color:#000;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+.button1:hover{
+    background: #ffa50022;    
+}
+.button2{
+    color:orange;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border:1px solid orange;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+.button2:hover{
+    background: #ffa50022;  
+}
+.section1{
+    width:100%;
+    min-height:300px;
+    background:#ccc7;
+    overflow: hidden;
+}
+.container2{
+    width:70%;
+    height:100%;
+    margin: auto;
+}
+.div1{
+    background:#fffe;
+    width:30%;
+    height:100%;
+    border-radius: 3%;
+    float: left;
+    margin-right: 28px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+h4{
+    padding-top: 10px;
+}
+.section2{
+    width:70%;
+    height:500px;
+    margin:auto;
+    padding: 40px 40px 10px 0;
+    box-sizing: border-box;
+    background: transparent;
+    font-size: 30px;
+}
+.ul ul{
+    list-style: none;
+    line-height:65px;
+}
+.ul ul li::before{
+    content:"\2661" " ";
+    color: rgb(233, 159, 22);
+}
+.ul{
+ float: left;
+ padding-right: 50px;
+}
+.img{
+    width:36%;
+    height:90%;
+    float:right;
+    display: block;
+    margin: auto;
+    opacity: 0.95;
+}
+.img img{
+    width:100%;
+    height:100%
+}
+
+.section3{
+    width:100%;
+    height:400px;
+    background-image: linear-gradient(#0008,#0008), url(../images/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center -130%;
+    background-repeat: no-repeat;
+}
+.container3{
+    width:70%;
+    margin: auto;
+    text-align: center;
+    padding:150px 0;
+    box-sizing: border-box;
+    line-height: 100px;
+    font-size: 28px;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+.button3{
+    background:orange;
+    color:#000;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+.button3:hover{
+    background: #ffa50022;    
+}
+.button4{
+    color:orange;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border:1px solid orange;
+    cursor:pointer;
+    transition: all 0.5s;
+    margin-top: 50px;
+}
+.button4:hover{
+    background: #ffa50022;  
+}
+footer{
+    width:100%;
+    height:45px;
+    background: rgb(29, 28, 28);
+    color: white;
+    line-height:45px;
+    box-sizing: border-box;
+}
